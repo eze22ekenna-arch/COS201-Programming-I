@@ -6,6 +6,7 @@ Practical exercises for COS 201 Computer Programming I.
   - Name: Ndukwu-Ekenna Chibueze Emmanuel
   - Programme: Software Engineering
   - Course Code: COS 201 
+  - Matriculation number: 25/17823
   ### Practical Exercise Created and executed my first Java programme. 
   ### File - week01/FirstProgram.java 
   ### Skills Practised - Java class and main method - Output statements - Compilation and execution - GitHub version control 
