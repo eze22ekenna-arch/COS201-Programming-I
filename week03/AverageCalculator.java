@@ -14,6 +14,13 @@ public class AverageCalculator {
             System.out.print("Enter score for Course 3: ");
             double score3 = input.nextDouble();
 
+            if (!(score1 >= 0 && score1 <= 100)
+                    || !(score2 >= 0 && score2 <= 100)
+                    || !(score3 >= 0 && score3 <= 100)) {
+                System.out.println("Invalid score. Each score must be between 0 and 100.");
+                return;
+            }
+
             double total = score1 + score2 + score3;
             double average = total / 3.0;
             System.out.println("\n--- STUDENT RESULT ---");
